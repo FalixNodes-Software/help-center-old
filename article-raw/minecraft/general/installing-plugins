@@ -9,7 +9,7 @@ Ok now, to install it on your server you are going to want to open your File Man
 You have now just installed a plugin!</p>
 <h2 id="configuring-plugins">Configuring plugins</h2>
 <p>#
-<strong><em>Everytime you configure I reccomend you turn off your server as sometimes not restarting could break things.</em></strong></p>
+<strong><em>Everytime you configure I recommend you turn off your server as sometimes not restarting could break things.</em></strong></p>
 <p>Most plugins have a config file to edit, so you can set the plugin&#39;s settings.
 To access the config file, go inside the <code>plugin</code> folder, and look for another folder that should have been created. The folder is called the plugin name, open the file inside called <code>config.yml.</code></p>
 <p>You are now inside the config. Vault&#39;s config is simple but yours may not be. There are usually notes written by the creator about each kind of setting. Edit as you please.</p>
