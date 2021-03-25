@@ -1,0 +1,18 @@
+<h1 id="getting-started-with-plugins">Getting started with plugins</h1>
+<h2 id="getting-a-plugin">Getting a plugin</h2>
+<p>So my plugin I have chose to install is Vault, Vault is a permissions, chat and economy API. It is mainly used alongside Essentials. So thats what I will install today. You can download many plugins from <a href="https://www.spigotmc.org/resources/categories/spigot.4/">Spigot</a> or <a href="https://dev.bukkit.org/bukkit-plugins">Bukkit</a>. </p>
+<h2 id="installing-it-on-your-server">Installing it on your server</h2>
+<p>To start, <strong>make sure your server is offline</strong> as we are messing with files.
+Ok now, to install it on your server you are going to want to open your File Manager and go into a folder called <code>plugins.</code> All you have to do is drag in the <code>.jar</code> file. It should look something like this.
+<img src="https://i.ibb.co/y6Q72t3/image.png" alt="JarFile"></p>
+<p>Next, start your server.
+You have now just installed a plugin!</p>
+<h2 id="configuring-plugins">Configuring plugins</h2>
+<p>#
+<strong><em>Everytime you configure I reccomend you turn off your server as sometimes not restarting could break things.</em></strong></p>
+<p>Most plugins have a config file to edit, so you can set the plugin&#39;s settings.
+To access the config file, go inside the <code>plugin</code> folder, and look for another folder that should have been created. The folder is called the plugin name, open the file inside called <code>config.yml.</code></p>
+<p>You are now inside the config. Vault&#39;s config is simple but yours may not be. There are usually notes written by the creator about each kind of setting. Edit as you please.</p>
+<p>When you are all set, just save the config and start up your server!</p>
+<h2 id="deleting-plugins">Deleting plugins</h2>
+<p>To delete a plugin, you need to delete the <code>.jar</code> file. You can also delete the folder with the config if you would lile. But it is not required.</p>
