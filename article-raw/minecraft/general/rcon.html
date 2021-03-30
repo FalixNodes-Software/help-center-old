@@ -1,0 +1,19 @@
+<h1>RCON</h1>
+<h2>What is RCON?</h2>
+<p>RCON is a protocol that allows server administrators to remotely execute Minecraft commands.</p>
+<h2>Setting up RCON</h2>
+<ui>
+  <li>Go to <a href="https://panel.falixnodes.net/">panel.falixnodes.net</a> and click on your server.</li>
+  <li>Go to the network tab and click on New Allocation.</li>
+  <li>Go to file manager and open server.properties, set `enable-rcon` to true, and restart your server.</li>
+  <li>Go back to network tab and copy the secondary port. (<a href="http://everything.is-bannable.xyz/raw/em9F02eF6.png">Example</a>)</li>
+  <li>Go back to file manager and open server.properties, set `rcon.port` to the port you copied, and set `rcon.password` to a password you want.</li>
+  <li>Restart your server.</li>
+</ui>
+<h2>Connecting to RCON</h2>
+<p>Download a RCON client called <a href="https://github.com/Tiiffi/mcrcon/releases/">McRcon</a></p>
+<ui>
+    <li>Open powershell and do `cd path/to/mcronfolder`</li>
+    <li>do `mcrcon.exe -H serverIPwithoutPort -P secondaryPort -p passwordHere`</li>
+</ui><br>
+You should now have access to the console of your minecraft server.
