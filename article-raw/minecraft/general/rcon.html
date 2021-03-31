@@ -11,9 +11,25 @@
   <li>Restart your server.</li>
 </ui>
 <h2>Connecting to RCON</h2>
+<h3>Windows</h3>
 <p>Download a RCON client called <a href="https://github.com/Tiiffi/mcrcon/releases/">McRcon</a></p>
 <ui>
     <li>Open powershell and do <code>cd path/to/mcronfolder</code></li>
     <li>do <code>mcrcon.exe -H serverIPwithoutPort -P secondaryPort -p passwordHere</code></li>
 </ui><br>
-You should now have access to the console of your minecraft server.
+<p>You should now have access to the console of your minecraft server.</p>
+<h3>Linux</h3>
+<p>Download a RCON client called <a href="https://github.com/Tiiffi/mcrcon/releases/">McRcon</a></p>
+<ui>
+    <li>Open terminal and do <code>cd /path/to/mcronfolder</code></li>
+    <li>do <code>chmod u+x ./mcrcon</code></li>
+    <li>do <code>./mcrcon -H serverIPwithoutPort -P secondaryPort -p passwordHere</code></li>
+</ui><br>
+<p>You should now have access to the console of your minecraft server.</p>
+<h3>Mac OS X</h3>
+<ui>
+  <li>open terminal and do <code>sudo brew tap webhippie/webhippie</code></li>
+  <li>do <code>sudo brew install mcrcon</code></li>
+  <li>do <code>mcrcon -H serverIPwithoutPort -P secondaryPort -p passwordHere</code></li>
+</ui>
+<p>You should now have access to the console of your minecraft server.</p>
