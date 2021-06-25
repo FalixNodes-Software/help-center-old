@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Optimzing your Server"
+title:  "Optimizing your Server"
 parent: General
 grand_parent: Minecraft
 permalink: /minecraft/general/optimizing-your-server/
