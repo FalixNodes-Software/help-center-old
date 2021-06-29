@@ -24,12 +24,10 @@ Click "I Accept" when the **Mojang EULA** pop up appears. The server is turn off
 During the first boot of any Minecraft server, it may take a while to prepare spawn area.
 
 ## Using a Custom Jar
-Minecraft uses a <u>.jar</u> file to start your server and setting a custom jar is easy.
-If the option you want isn't available on the first boot, a custom jar can be used. Simply upload the .jar file(e.g. <u>paper-1.16.5-774.jar</u>) to your server's root directory in files, then rename it to <u>custom.jar</u>. You can rename the file by clicking or tapping on the three dots on the right side, then clicking Rename.
+Minecraft uses a __.jar__ file to start your server and setting a custom jar is easy.
+If the option you want isn't available on the first boot, a custom jar can be used. Simply upload the .jar file(e.g. __paper-1.16.5-774.jar__) to your server's root directory in files, then rename it to __custom.jar__. You can rename the file by clicking or tapping on the three dots on the right side, then clicking Rename.
 
-Falix will automatically detect the <u>custom.jar</u> on the next launch of your server and will use the file to boot.
-
-> You may need to do this for [Bungeecord](https://help.falixnodes.net/falix/general/troubleshooting/#corrupted-bungeecord-jar-file).
+Falix will automatically detect the __custom.jar__ on the next launch of your server and will use the file to boot.
 
 # Choosing Your Server Java Version
 <!-- # What is Java? (An explantion for noobs will be added later on) -->
@@ -46,13 +44,54 @@ Use **Java 16** for Minecraft 1.17 or newer
 To make a Java version the default one, so that you don't need to select it every time you start your server, visit the [game panel](https://panel.falixnodes.net/), find and click on your server, find the "Startup" page on the top bar, scroll down to "Variables", then find "JAVA VERSION" and type the following for:
 
 ## Java8
-`adopt@1.8.0-275`
+`adopt@1.8.0-292`
 
 ## Java11
-`adopt@1.11.0-9`
+`adopt@1.11.0-11`
 
 ## Java 16
 `adopt@1.16.0-1`
+
+## Other java versions:
+
+| Java version      | java code          |
+|:---------------|:----------------------|
+| 8              | adopt@1.8.0-262       |
+|                | adopt@1.8.0-265       |
+|                | adopt@1.8.0-272       |
+|                | adopt@1.8.0-275       |
+|                | adopt@1.8.0-282       |
+|                | adopt@1.8.0-292       |
+|:---------------|:----------------------|
+| 9              | adopt@1.9.0-0         |
+|                | adopt@1.9.0-4         |
+|:---------------|:----------------------|
+|10 | adopt@1.10.0-2|
+|:---------------|:----------------------|
+|11 | adopt@1.11.0-8|
+|| adopt@1.11.0-9|
+|| adopt@1.11.0-10|
+|| adopt@1.11.0-11|
+|:---------------|:----------------------|
+|12 | adopt@1.12.0-0|
+|| adopt@1.12.0-1|
+|| adopt@1.12.0-2|
+|:---------------|:----------------------|
+|13 | adopt@1.13.0-0|
+|| adopt@1.13.0-1|
+|| adopt@1.13.0-2|
+|:---------------|:----------------------|
+|14 | adopt@1.14.0-0|
+|| adopt@1.14.0-1|
+|| adopt@1.14.0-2|
+|:---------------|:----------------------|
+|15 | adopt@1.15.0-0|
+|| adopt@1.15.0-1|
+|| adopt@1.15.0-2|
+|:---------------|:----------------------|
+|16 | adopt@1.16.0-0|
+|| adopt@1.16.0-1|
+|:---------------|:----------------------|
 
 Now, go back to your console, start your server and you'll see it using the Java version you set.
 
@@ -77,8 +116,6 @@ You also have a shortcut. You can check out premade configs by clicking [here](h
 
 # Configuring
 ## Message of the Day
-![Message of the Day Example](https://i.imgur.com/ctD8iqS.png)
-
 Also known as MOTD, is the message that shows up below the server name on a multiplayer server list. Usually used to say what's new about the server and/or also displaying what version it supports. Sometimes also used to indicate what games it has to offer or just a short description of the server.
 
 To configure MOTD(Message of the Day), the setting for this is usually found in the server.properties file. Simply just change it to what you want for your Minecraft Java Server.
@@ -136,7 +173,7 @@ If you want to give some players access to specific admin commands, but not ever
 
 # Connecting
 ## Find your Server IP Address
-In your [Game Panel](https://panel.falix.gg/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like <u>de##.falixnodes.net:#####</u>.
+In your [Game Panel](https://panel.falix.gg/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like __de##.falixnodes.net:#####__.
 
 If you're looking for the numeric IP, this usually shows up when booting the server.
 
